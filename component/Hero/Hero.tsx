@@ -38,7 +38,7 @@ export default function Hero() {
             <div className="absolute  inset-0 bg-linear-to-br from-[#2196F3] to-[#3B82F6] rounded-2xl blur-2xl opacity-50 animate-pulse"></div>
             <div className="absolute inset-0 bg-zinc-950 border border-zinc-900 rounded-2xl backdrop-blur-sm">
               <Image
-                src="/foto3.jpg"
+                src="/foto4.jpg"
                 alt="/"
                 width={390}
                 height={0}
