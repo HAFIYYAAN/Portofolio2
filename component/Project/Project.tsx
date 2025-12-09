@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Projects() {
   const projects = [
     {
@@ -27,7 +29,9 @@ export default function Projects() {
             >
               {/* Project Image */}
               <div className="relative h-64 overflow-hidden bg-secondary">
-                <img
+                <Image
+                  width={500}
+                  height={500}
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
