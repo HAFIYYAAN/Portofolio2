@@ -22,19 +22,15 @@ export default function Hero() {
             </div>
 
             <p className="text-lg text-[#737373] max-w-md leading-relaxed">
-              I design and build beautiful digital experiences with modern
-              technologies. Passionate about clean code and seamless user
-              interfaces.
+              Full-Stack Developer who focuses on building modern,
+              high-performance applications. Skilled in developing end-to-end
+              features from backend to frontend, with an emphasis on clean code
+              and a seamless user experience.
             </p>
-
-            <div className="flex gap-4 pt-4">
-              <button className="px-6 py-3 bg-[#2196F3] text-white rounded-lg font-medium hover:opacity-90 transition-opacity">
-                View My Work
-              </button>
-              <button className="px-6 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-card transition-colors">
-                Get in Touch
-              </button>
-            </div>
+            <p className="text-lg text-[#737373] max-w-md leading-relaxed">
+              I also prioritize performance, scalability, and maintainability in
+              every project I work on.
+            </p>
           </div>
 
           {/* Right side - Animated gradient box */}
