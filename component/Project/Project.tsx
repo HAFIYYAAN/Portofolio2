@@ -11,6 +11,7 @@ export default function Projects() {
         "Mutaba'ah is a record of daily deeds or activities used to monitor consistency, improve self-quality, and maintain discipline in carrying out routines.",
       tags: ["React", "Next.js", "typescript"],
       image: "/project.png",
+      url: "https://mutaba-ah0.vercel.app/",
     },
   ];
 
@@ -23,8 +24,11 @@ export default function Projects() {
 
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project) => (
-            <div
+            <a
               key={project.id}
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group cursor-pointer rounded-xl overflow-hidden bg-neutural-100 border-[#262626] border border-border hover:border-[#06B6D4] transition-all duration-300 hover:shadow-lg"
             >
               {/* Project Image */}
@@ -58,7 +62,7 @@ export default function Projects() {
                   ))}
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
