@@ -4,7 +4,7 @@ import { Mail, Github, Linkedin, Twitter } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-black py-20 px-4">
+    <section id="contact" className="bg-[#020202] py-20 px-4">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-foreground mb-6">
           Let&apos;s Connect
@@ -15,12 +15,15 @@ export default function Contact() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <button className="px-8 py-3 bg-[#2196F3] cursor-pointer text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-opacity">
+          <a
+            href="mailto:rusydahafiyyan@gmail.com?subject=Hello!&body=I%20want%20to%20contact%20you"
+            className="px-8 py-3 bg-[#2196F3] cursor-pointer text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-opacity"
+          >
             Send Email
-          </button>
-          <button className="px-8 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-card transition-colors">
-            Schedule Call
-          </button>
+          </a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEP5MX1E00r41-9VWnKJ5k7csxI7Zrh9ucVjGV3pyGHIZoww/viewform?usp=dialog" className="px-8 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-card transition-colors">
+            Send Message
+          </a>
         </div>
 
         {/* Social Links */}

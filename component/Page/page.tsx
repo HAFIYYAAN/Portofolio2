@@ -18,7 +18,7 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="min-h-[70vh] py-20 px-2 bg-[#010101]">
+    <section id="about" className="min-h-[70vh] py-20 px-2 bg-[#020202]">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
